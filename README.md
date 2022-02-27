@@ -1,7 +1,7 @@
 Versiones 
 Backend:
-.Net Core 6.0.102
-Sql Server 2019
+API .Net Core 6.0.102
+Microsoft SQL Server Express 15.0
 Frontend:
 Angular CLI 13.1.2
 Node 14.17.6
