@@ -1,0 +1,10 @@
+.cursor{
+    cursor: pointer;
+}
+th{
+    text-align: center;
+}
+td{
+    text-align: center;
+    border: none ;
+}

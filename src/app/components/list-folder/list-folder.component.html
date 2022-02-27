@@ -1,0 +1,17 @@
+
+<table class="table" >
+    <thead>
+        <th>Folder</th>
+        <th>View</th>
+        <th>Delete</th>
+    </thead>
+    <tbody >
+   <tr *ngFor="let folder of listFolders" >
+    <td>{{folder.nameFolder}}</td>
+    <td> <span (click)="viewFolder(folder.id,folder.nameFolder)" class="p-2 bd-highlight bd-highlight cursor text-info"><i class="fal fa-eye"></i></span></td>
+
+    <td> <span (click)="deleteFolder(folder.id)" class="p-2 bd-highlight bd-highlight cursor text-danger"><i class="fal fa-trash-alt"></i></span></td>
+
+    </tr>
+    </tbody>
+</table>
