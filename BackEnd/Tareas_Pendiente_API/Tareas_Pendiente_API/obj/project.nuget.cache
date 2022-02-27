@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/PBQXQFhHIa1t2QmSOTGfDgp5Uc0yorDH5EuUdIkOFCFYwxTgPL+/d84m1tJ30K91PFsKjey0z6Yzzo3KZh3RA==",
+  "dgSpecHash": "i8QYSqKFU5YMBTqbzD7NuiFzNMdBglVezvRZQMGYA7KKjTSARZkzmFR/FNIMXCX5wAhFKcau7RrcmKcQat0V7g==",
   "success": true,
-  "projectFilePath": "F:\\Proyectos_Netcore\\Tareas_Pendiente_API\\Tareas_Pendiente_API\\Tareas_Pendiente_API.csproj",
+  "projectFilePath": "F:\\EnsolverChallenge\\ensolver-folder-task\\BackEnd\\Tareas_Pendiente_API\\Tareas_Pendiente_API\\Tareas_Pendiente_API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\emilo\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\emilo\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
@@ -34,6 +34,7 @@
     "C:\\Users\\emilo\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.8.0\\microsoft.identitymodel.tokens.6.8.0.nupkg.sha512",
     "C:\\Users\\emilo\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\emilo\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\emilo\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.11.1\\microsoft.visualstudio.azure.containers.tools.targets.1.11.1.nupkg.sha512",
     "C:\\Users\\emilo\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\emilo\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\emilo\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",

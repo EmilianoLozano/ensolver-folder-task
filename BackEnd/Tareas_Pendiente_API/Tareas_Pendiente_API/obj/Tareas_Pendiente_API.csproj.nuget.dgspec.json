@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Proyectos_Netcore\\Tareas_Pendiente_API\\Tareas_Pendiente_API\\Tareas_Pendiente_API.csproj": {}
+    "F:\\EnsolverChallenge\\ensolver-folder-task\\BackEnd\\Tareas_Pendiente_API\\Tareas_Pendiente_API\\Tareas_Pendiente_API.csproj": {}
   },
   "projects": {
-    "F:\\Proyectos_Netcore\\Tareas_Pendiente_API\\Tareas_Pendiente_API\\Tareas_Pendiente_API.csproj": {
+    "F:\\EnsolverChallenge\\ensolver-folder-task\\BackEnd\\Tareas_Pendiente_API\\Tareas_Pendiente_API\\Tareas_Pendiente_API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Proyectos_Netcore\\Tareas_Pendiente_API\\Tareas_Pendiente_API\\Tareas_Pendiente_API.csproj",
+        "projectUniqueName": "F:\\EnsolverChallenge\\ensolver-folder-task\\BackEnd\\Tareas_Pendiente_API\\Tareas_Pendiente_API\\Tareas_Pendiente_API.csproj",
         "projectName": "Tareas_Pendiente_API",
-        "projectPath": "F:\\Proyectos_Netcore\\Tareas_Pendiente_API\\Tareas_Pendiente_API\\Tareas_Pendiente_API.csproj",
+        "projectPath": "F:\\EnsolverChallenge\\ensolver-folder-task\\BackEnd\\Tareas_Pendiente_API\\Tareas_Pendiente_API\\Tareas_Pendiente_API.csproj",
         "packagesPath": "C:\\Users\\emilo\\.nuget\\packages\\",
-        "outputPath": "F:\\Proyectos_Netcore\\Tareas_Pendiente_API\\Tareas_Pendiente_API\\obj\\",
+        "outputPath": "F:\\EnsolverChallenge\\ensolver-folder-task\\BackEnd\\Tareas_Pendiente_API\\Tareas_Pendiente_API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -67,6 +67,10 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[6.0.2, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.11.1, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

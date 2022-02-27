@@ -11,6 +11,7 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("67ec1af3-858c-4f26-aac6-bb0ff1e24fea")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("Tareas_Pendiente_API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
