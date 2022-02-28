@@ -8,9 +8,10 @@ import { TaskServiceService } from '../../services/task-service.service';
 })
 export class FolderComponentComponent implements OnInit {
 
+  ver : boolean;
   
   constructor(private _taskService : TaskServiceService) {
-   
+    this.ver=false;
    }
 
   ngOnInit(): void {
