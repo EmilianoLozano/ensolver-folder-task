@@ -7,7 +7,7 @@ import { ListTasksComponent } from './components/list-tasks/list-tasks.component
 import { CreateTaskComponent } from './components/create-task/create-task.component';
 
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { CreateFolderComponent } from './components/create-folder/create-folder.component';
 
 import { ListFolderComponent } from './components/list-folder/list-folder.component';
@@ -15,6 +15,7 @@ import { ListFolderComponent } from './components/list-folder/list-folder.compon
 import { FolderComponentComponent } from './components/folder-component/folder-component.component';
 
 import {HttpClientModule} from '@angular/common/http';
+import { LoginComponent } from './components/login/login.component';
 
 @NgModule({
   declarations: [
@@ -25,13 +26,15 @@ import {HttpClientModule} from '@angular/common/http';
     CreateFolderComponent,
     ListFolderComponent,
     FolderComponentComponent,
+    LoginComponent,
  
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

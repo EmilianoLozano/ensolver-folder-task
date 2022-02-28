@@ -3,11 +3,13 @@ import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 
 import { FolderComponentComponent } from './components/folder-component/folder-component.component';
+import { LoginComponent } from './components/login/login.component';
 
 const routes: Routes = [
-  {path: '', redirectTo: '/folders', pathMatch:'full'},
+  {path: '', redirectTo: '/login', pathMatch:'full'},
   {path: 'folders',component : FolderComponentComponent},
-  {path: '**', redirectTo: '/folders', pathMatch:'full'}
+  {path: 'login',component : LoginComponent},
+  {path: '**', redirectTo: '/login', pathMatch:'full'}
   
 ];
 

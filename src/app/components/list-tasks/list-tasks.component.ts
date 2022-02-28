@@ -27,6 +27,7 @@ export class ListTasksComponent implements OnInit {
 
   stateTask: boolean;
 
+
   constructor(private _taskService : TaskServiceService,
     private _folderService : FolderServiceService,
     private router : Router,
@@ -37,6 +38,7 @@ export class ListTasksComponent implements OnInit {
     this.editTask=false;
     this.stateTask = false;
     this.nameFolder = '';
+   
   }
 
   ngOnInit(): void {
@@ -110,7 +112,9 @@ export class ListTasksComponent implements OnInit {
     }
 
     this._taskService.updateTask(this.idFolder,this.idTask, task).subscribe( data =>{
+   
       this.reloadCurrentRoute();
+   
 
     }, error => {
       console.log(error);
