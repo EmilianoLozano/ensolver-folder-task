@@ -40,7 +40,7 @@ export class CreateFolderComponent implements OnInit {
           this.router.routeReuseStrategy.shouldReuseRoute = () => false;
           this.router.onSameUrlNavigation = 'reload';
           this.router.navigate([currentUrl]);
-
+          this.message=false;
           this.nameFolder="";
         }, error => {
         
