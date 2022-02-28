@@ -20,7 +20,7 @@ El Frontend se encuentra en la rama master.
 Para ejecutarlo desde visual studio code hay que instalar los node packages
  1- npm install
  2- ng serve --o
- Tambien se puede acceder desde la url: https://ensolver-tasks.netlify.app/
+ Tambien se puede acceder desde la url: https://challenge-ensolver.netlify.app/
  
  SIMULACRO DE LOGIN
  username : emi_task
