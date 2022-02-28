@@ -12,6 +12,8 @@ export class CreateFolderComponent implements OnInit {
 
   nameFolder : string;
 
+  message = false;
+
   constructor(private _folderService : FolderServiceService,
     private router : Router) { 
     this.nameFolder= '';
@@ -27,19 +29,24 @@ export class CreateFolderComponent implements OnInit {
     const folder = {
       nameFolder: this.nameFolder
     }
+    if(this.nameFolder == '')
+    {
+      this.message=true;
+    }
+    else{
+              
+        this._folderService.addFolder(folder).subscribe( data =>{
+          let currentUrl = this.router.url;
+          this.router.routeReuseStrategy.shouldReuseRoute = () => false;
+          this.router.onSameUrlNavigation = 'reload';
+          this.router.navigate([currentUrl]);
+
+          this.nameFolder="";
+        }, error => {
         
-  this._folderService.addFolder(folder).subscribe( data =>{
-    let currentUrl = this.router.url;
-    this.router.routeReuseStrategy.shouldReuseRoute = () => false;
-    this.router.onSameUrlNavigation = 'reload';
-    this.router.navigate([currentUrl]);
-
-    this.nameFolder="";
-  }, error => {
-  
-  })
-  }
-
+        })
+        }
+    }
 
 
 

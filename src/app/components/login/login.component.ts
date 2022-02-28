@@ -26,7 +26,7 @@ export class LoginComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  ingresar(){
+  login(){
 
     if(this.form.value.email == 'emi_task' && this.form.value.password == 'folder123'){
     this.router.navigate(['folders']);

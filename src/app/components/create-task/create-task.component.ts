@@ -16,6 +16,8 @@ export class CreateTaskComponent implements OnInit {
   nameTask : string;
   listTasks = [];
   folderId : number;
+  message= false;
+
   constructor(private _taskService : TaskServiceService,
     private router : Router,
     private _folderService : FolderServiceService) { 
@@ -39,17 +41,23 @@ export class CreateTaskComponent implements OnInit {
       nameTask: this.nameTask,
       stateTask : false
     }
-        
+        if(this.nameTask == '')
+        {
+          this.message=true;
+        }
+        else{
   this._taskService.addTask(this.folderId,task).subscribe( data =>{
     let currentUrl = this.router.url;
     this.router.routeReuseStrategy.shouldReuseRoute = () => false;
     this.router.onSameUrlNavigation = 'reload';
     this.router.navigate([currentUrl]);
     this.nameTask="";
+    this.message=false;
   }, error => {
   
   })
   }
+}
 
 
 }
